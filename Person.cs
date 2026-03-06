@@ -10,12 +10,12 @@ public class Person{
       firstName = FirstName;
       lastName = LastName;
       age = Age;
-      return $"Hello {firstName} {lastName}! You said you're {age}?";
    }
    public Constructor2(string firstName, string lastName){
-      firstName = FirstName;
-      lastName = LastName;
+      this.firstName = FirstName;
+      this.lastName = LastName;
       return $"The name's {lastName}, {firstName} {lastName}.";
    }
 }
+
 
