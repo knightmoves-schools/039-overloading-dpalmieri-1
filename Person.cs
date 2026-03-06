@@ -6,4 +6,13 @@ public class Person{
    public int Age;
 
    //Add your code here
+   public Constructor1(string firstName, string lastName, int age){
+      firstName = FirstName;
+      lastName = LastName;
+      age = Age;
+   }
+   public Constructor2(string firstName, string lastName){
+      firstName = FirstName;
+      lastName = LastName;
+   }
 }
