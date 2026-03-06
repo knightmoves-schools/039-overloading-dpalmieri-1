@@ -1,9 +1,9 @@
 ﻿namespace knightmoves;
 
 public class Person{
-   public string FirstName { get; set; };
-   public string LastName { get; set; };
-   public int Age { get; set; };
+   public string FirstName;
+   public string LastName;
+   public int Age;
 
    //Add your code here
    public Constructor1(string firstName, string lastName, int age){
@@ -16,6 +16,7 @@ public class Person{
       this.lastName = LastName;
    }
 }
+
 
 
 
