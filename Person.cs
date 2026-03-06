@@ -11,7 +11,7 @@ public class Person{
       lastName = LastName;
       age = Age;
    }
-   public Constructor2(string firstName, string lastName){
+   public Constructor1(string firstName, string lastName){
       this.firstName = FirstName;
       this.lastName = LastName;
    }
@@ -19,6 +19,7 @@ public class Person{
       return $"{firstName} {lastName}, you're {age}";
    }
 }
+
 
 
 
