@@ -14,8 +14,11 @@ public class Person{
    public Constructor2(string firstName, string lastName){
       this.firstName = FirstName;
       this.lastName = LastName;
-      return $"The name's {lastName}, {firstName} {lastName}.";
+   }
+   public string Sentence(){
+      return $"{firstName} {lastName}, you're {age}";
    }
 }
+
 
 
