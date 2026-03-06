@@ -15,10 +15,8 @@ public class Person{
       this.firstName = FirstName;
       this.lastName = LastName;
    }
-   public string Sentence(){
-      return $"{firstName} {lastName}, you're {age}";
-   }
 }
+
 
 
 
