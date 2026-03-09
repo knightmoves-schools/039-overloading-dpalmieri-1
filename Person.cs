@@ -15,7 +15,12 @@ public class Person{
       this.firstName = FirstName;
       this.lastName = LastName;
    }
+
+   public string HopeThisWorks(){
+      return Constructor1(Alex, Brought);
+   }
 }
+
 
 
 
