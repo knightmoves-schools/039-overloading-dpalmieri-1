@@ -6,16 +6,17 @@ public class Person{
    public int Age;
 
    //Add your code here
-   public Constructor1(string firstName, string lastName){
-      this.firstName = FirstName;
-      this.lastName = LastName;
+   public Person1(string firstName, string lastName){
+      this.FirstName = firstName;
+      this.LastName = lastName;
    }
-    public Constructor1(string firstName, string lastName, int age){
-      firstName = FirstName;
-      lastName = LastName;
-      age = Age;
+    public Person1(string firstName, string lastName, int age){
+      this.FirstName = firstName;
+      this.LastName = lastName;
+      this.Age = age;
    }
 }
+
 
 
 
